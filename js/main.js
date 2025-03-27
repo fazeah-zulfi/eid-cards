@@ -11,7 +11,7 @@ function generateImage(designNumber) {
     canvas.height = img.height;
 
     const designSettings = {
-      1: { fontSize: 28, fontColor: '#feffff', x: img.width / 2, y: 1380 },
+      1: { fontSize: 35, fontColor: '#520205', x: img.width / 2, y: 1380 },
       2: { fontSize: 38, fontColor: '#0f4c82', x: 315, y: 1310 },
       3: { fontSize: 55, fontColor: '#333333', x: img.width / 2, y: 1365 },
       4: { fontSize: 40, fontColor: '#000000', x: 300, y: 1300 },
