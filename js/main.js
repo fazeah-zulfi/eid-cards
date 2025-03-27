@@ -11,12 +11,12 @@ function generateImage(designNumber) {
     canvas.height = img.height;
 
     const designSettings = {
-      1: { fontSize: 28, fontColor: '#feffff', x: img.width * 0.7, y: 1155 },
-      2: { fontSize: 38, fontColor: '#0f4c82', x: img.width / 2, y: 957 },
-      3: { fontSize: 55, fontColor: '#333333', x: img.width / 2, y: 1660 },
-      4: { fontSize: 40, fontColor: '#000000', x: 300, y: 1680 },
-      5: { fontSize: 36, fontColor: '#fefeff', x: img.width / 2, y: 1035 },
-      6: { fontSize: 30, fontColor: '#4e615f', x: 180, y: 855 }
+      1: { fontSize: 28, fontColor: '#feffff', x: img.width / 2, y: 1380 },
+      2: { fontSize: 38, fontColor: '#0f4c82', x: 315, y: 1310 },
+      3: { fontSize: 55, fontColor: '#333333', x: img.width / 2, y: 1365 },
+      4: { fontSize: 40, fontColor: '#000000', x: 300, y: 1300 },
+      5: { fontSize: 36, fontColor: '#fefeff', x: img.width / 2, y: 1050 },
+      6: { fontSize: 30, fontColor: '#4e615f', x: img.width / 2, y: 950 }
     };
 
     const settings = designSettings[designNumber] || { fontSize: 36, fontColor: '#006699', x: img.width / 2, y: 500 };
